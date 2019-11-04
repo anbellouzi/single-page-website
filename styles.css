@@ -1,0 +1,15 @@
+.spacer {
+  background-size: auto 40px;
+  background-position: 50%;
+  background-image: url(https://stockx-assets.imgix.net/banners/how-it-works/howitworks-banner.jpg);
+  background-color: #10364b;
+  height: 40px;
+}
+
+.mt-negative-40 {
+  margin-top: -40px;
+}
+
+.background-img {
+  background-image: url(https://stockx-assets.imgix.net/headers/home_2.png?auto=compress%2Cformat);
+}
