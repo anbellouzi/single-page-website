@@ -1,15 +1,278 @@
-.spacer {
-  background-size: auto 40px;
-  background-position: 50%;
-  background-image: url(https://stockx-assets.imgix.net/banners/how-it-works/howitworks-banner.jpg);
-  background-color: #10364b;
-  height: 40px;
+body {
+  font-family: Helvetica;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
-.mt-negative-40 {
-  margin-top: -40px;
+header {
+  width: 100%;
 }
 
-.background-img {
-  background-image: url(https://stockx-assets.imgix.net/headers/home_2.png?auto=compress%2Cformat);
+.logo {
+  margin-left: 10px;
+  color: black;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 5px;
+  margin: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+#home p {
+  width: 70%;
+  text-align: center;
+}
+
+#home label {
+  background-color: green;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#home label a {
+  color: white;
+  text-decoration: none;
+}
+
+.bg-image {
+  background-image: url(https://media.istockphoto.com/photos/red-background-picture-id181091938?k=6&m=181091938&s=612x612&w=0&h=cBznyVhvxoKJvJzA71QfAe7TGfqyy0x9uj1oQ_1GAAw=);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.bg-image2 {
+  background-image: url(https://media.istockphoto.com/photos/vintage-retro-grungy-background-design-and-pattern-texture-picture-id656453072?k=6&m=656453072&s=612x612&w=0&h=4TW6UwMWJrHwF4SiNBwCZfZNJ1jVvkwgz3agbGBihyE=);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.bg-image3 {
+  background-image: url(https://media.istockphoto.com/photos/abstract-green-background-picture-id689323732?k=6&m=689323732&s=612x612&w=0&h=EJlWrflccYuhV74Z3O-eXvTAo0sfMH7SZhO_-xWNMDg=);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.bg-image4 {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-purple-light-effect-electronic-technology-background-backgrounddatabusinessblueelectronictechnologyintelligentblue-backgroundtechnology-backgroundlightcool-image_78722.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+
+#about {
+  padding: 10px;
+}
+
+.container-about {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-content {
+  margin: 10px;
+  padding: 5px;
+}
+
+.container-about img {
+  margin: 5px;
+  width: 300px;
+  height: auto;
+}
+
+
+
+.card button {
+  padding: 1em;
+  margin: 1em;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  width: 100px;
+  justify-self: end;
+  align-self: flex-end;
+  margin-top: auto; /* Move this item to the bottom */
+}
+
+.card {
+  width: 340px;
+  /* height: 550px; */
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid;
+  margin: 1em;
+}
+
+.card h3, .card p {
+  padding: 0 1rem;
+}
+
+.container-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#portfolio, #contact {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+
+.contact-form {
+  text-align: center;
+  align-items: center;
+}
+
+.contact-form {
+  width: 80%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  padding: 3em;
+  /* background-image: url("https://ak0.picdn.net/shutterstock/videos/1485730/thumb/1.jpg");
+  */
+  background-color: transparent;
+  background-size: auto;
+  border-radius: 1em;
+  margin: 0 auto;
+
+  border: 1px solid purple;
+}
+
+input, textarea {
+  font-size: 1em;
+  padding: 0.75em;
+}
+
+#pet {
+  width: 2em;
+}
+
+.bio textarea, .button_box input, .destruct input, input[type=file], input[type=text], input[type=email], input[type=number], input[type=birthday], input[type=radio], select {
+  margin: 1em 0 1em 0;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+}
+
+select {
+  width: 5em;
+  background-color: transparent;
+  border-color: white;
+}
+
+input[type=file] {
+  width: 200px;
+}
+
+
+.admin {
+  margin: 1em 0 1em 0;
+}
+
+.admin input, .admin label {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin: 5px 0 5px 0;
+  padding: 5px;
+}
+
+.admin input {
+  margin-right: 5px;
+  width: 1em;
+}
+
+.bio textarea{
+  width: 100%;
+}
+
+.destruct input {
+  width: 100%;
+}
+
+.button_box{
+  margin-top: 10px;
+  text-align: center;
+}
+.button_box input {
+  width: 50%;
+  display: block;
+  padding: 1em;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.button_box input:hover {
+  cursor: pointer;
+  background-color: #228B22;
+  color: white;
+  border: 0;
+}
+
+input:hover, textarea:hover, select:hover {
+  background-color: white;
+  color: black;
 }
