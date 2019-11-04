@@ -1,9 +1,9 @@
 Autor: Anas Bellouzi
 Date: 10/30/2019
 
-Project: Assignment 3: StockX -> https://stockx.com/
+Project: Assignment 3
 
-Instruction: visit live version @ https://anbellouzi.github.io/few1.1-hw3/
+Instruction: visit live version @ https://anbellouzi.github.io/single-page-website/
 
 Pages;
   1. home page -> index.html
@@ -13,5 +13,5 @@ Resources:
   - CSS
 
 Credit:
-  2. StockX: https://stockx.com/
-  3. Footer: https://getbootstrap.com/docs/4.0/utilities/colors/
+  1. Bootstrap: https://bootswatch.com/cosmo/
+  3. Footer: https://getbootstrap.com/docs/
